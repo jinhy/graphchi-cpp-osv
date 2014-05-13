@@ -1,0 +1,41 @@
+here
+Print top 20 vertices:
+1. 1	1
+2. 2	1
+3. 3	1
+4. 0	0.15
+
+ === REPORT FOR pagerank() ===
+[Numeric]
+cachesize_mb:		0
+compression:		0
+execthreads:		4
+loadthreads:		4
+membudget_mb:		800
+niothreads:		2
+niters:		4
+nshards:		1
+nvertices:		4
+scheduler:		0
+serialized-updates:		12	(count: 4, min: 3, max: 3, avg: 3)
+stripesize:		1.07374e+09
+updates:		16
+work:		0
+[Timings]
+execute-updates:		0.01718s	 (count: 4, min: 0.001305s, max: 0.006276, avg: 0.004295s)
+inmem-exec:		0.017211s	 (count: 4, min: 0.001318s, max: 0.006282, avg: 0.00430275s)
+iomgr_init:		0.0003 s
+memoryshard_create_edges:		0.000559 s
+preada_now:		5.7e-05s	 (count: 3, min: 7e-06s, max: 2.9e-05, avg: 1.9e-05s)
+pwritea_now:		2.5e-05 s
+runtime:		0.033316 s
+stripedio_wait_for_reads:		7e-06 s
+stripedio_wait_for_writes:		5e-06s	 (count: 3, min: 1e-06s, max: 2e-06, avg: 1.66667e-06s)
+[Other]
+app:	pagerank
+engine:	default
+file:	graphtxt
+--------------ANNOUNCEMENT--------------
+Please help my Ph.D. study and fill a short survey: http://bit.ly/1llxUIz
+    * Thanks: Aapo Kyrola (developer of GraphChi)
+----------------------------------------
